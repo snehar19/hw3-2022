@@ -1,61 +1,87 @@
 body {
+    /* Default text is Arial font with Verdana as a fallback option */
     font-family: Arial, Verdana;
+    /* Black background (use hexadecimal values) */
     background-color: #000000;
+    /* White font (use hexadecimal values) */
     color: #FFFFFF;
-    margin: 20px 20px 0px;
+    /* Margin of 20px on the top and sides.  None on the bottom. */
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 h1 {
+    /* 42px centered font  */
     font-size: 42px;
     text-align: center;
+    /* Padding of 15px */
     padding: 15px;
 }
 
 h2 {
+    /* 30px dark gray font (#0D0D0D) */
     font-size: 30px;
     color: #0D0D0D;
 }
 
 p {
+    /* 24px font */
     font-size: 24px;
-    padding: 10px 0px 0px 10px;
+    /* Padding of 10px on the top and left only */
+    padding-top: 10px;
+    padding-left: 10px;
 }
 
 img {
+    /* All images are 250px wide (do not set a height) */
     width: 250px;
-    /* center image */
+    /* All images are centered */
     display: block;
     margin-left: auto;
     margin-right: auto;
+    /* All images have a white 10px dashed border */
     border: 10px dashed white;
 }
 
 div {
+    /*  A flexible height of at least 125px tall */
     min-height: 125px;
+    /*  Padding of 20px on all sides */
     padding: 20px;
+    /* A 3px solid white border on all sides. */
     border: 3px solid white;
 }
 
 .introduction {
+    /* 15px border-radius (to curve the edges) */
     border-radius: 15px;
+    /* Margin of  15px margin on the top */
     margin-top: 15px;
+    /* Double-spaced text */
     line-height: 2;
 }
 
 .red {
+    /* Background color is hexadecimal value for red */
     background-color: red;
+    /* Text is aligned on the right side */
     text-align: right;
+    /* A left margin of 50px; */
     margin-left: 50px;
+    /* A  border of 2px on the bottom and 5px on the left; */
     border-bottom-width: 2px;
     border-left-width: 5px;
-    border-right-width: 0px;
-    border-top-width: 0px;
 }
 
 .blue {
+    /* Background color is hex value for blue */
     background-color: blue;
+    /* Text is aligned on the left side */
     text-align: left;
+    /* A right margin of 50px; */
     margin-right: 50px;
+    /* A  border of 5px on the right and 2px on the top; */
     border-right-width: 5px;
     border-top-width: 2px;
     border-right-width: 0px;
@@ -63,37 +89,50 @@ div {
 }
 
 .blue h2, .blue p {
+    /* The heading and paragraph text should use #C4C4C4 */
     color: #C4C4C4;
 }
 
 .yellow {
+    /* Background color is hexadecimal value for yellow */
     background-color: yellow;
+    /* Text is aligned on the right side */
     text-align: right;
+    /* A left margin of 50px; */
     margin-left: 50px;
-    border-bottom: 2px;
-    border-left: 5px;
+    /* A border of 2px on the bottom and 5px on the left; */
+    border-bottom-width: 2px;
+    border-left-width: 5px;
 }
 
 .yellow p {
+    /* The paragraph text should be #707070.  (Updated 7/7) */
     color: #707070;
 }
 
 .green {
+    /* The background color is hexadecimal value for green  (You must use #00EB00, #008500, or #00D800) */
     background-color: #008500;
+    /* Text is aligned on the left side */
     text-align: left;
+    /* A right margin of 50px; */
     margin-right: 50px;
-    border-right: 5px;
-    border-top: 2px;
+    /* A  border of 5px on the right and 2px on the top; */
+    border-right-width: 5px;
+    border-top-width: 2px;
 }
 
-
 footer {
+    /* a gradient background that starts at #000000, goes to #0000ff at 25,  #0066ff at 70, and ends back at #000000. */
     background: linear-gradient(90deg, #000000 0%, #0000ff 25%, #0066ff 70%, #000000 100%);
+    /* A 5px solid white border. */
     border: 5px solid white;
 }
 
 footer p {
+    /* 20px text that is aligned to the right. */
     font-size: 20px;
     text-align: right;
+    /* Padding of 15px on the top, right, and bottom only. (No padding on the left.) */
     padding: 15px 15px 15px 0px;
 }
